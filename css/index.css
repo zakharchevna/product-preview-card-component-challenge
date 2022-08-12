@@ -79,6 +79,10 @@
     --product-btn-hover: hsl(158, 44%, 29%);
     --products-content-background: hsl(0, 0%, 100%);
 }
+body {
+  height: 100vh;
+  background-color: var(--products-background);
+}
 .products__container {
     overflow: hidden;
     scroll-behavior: smooth;
@@ -87,7 +91,6 @@
 }
 .products {
     padding: 30px 15px;
-    background-color: var(--products-background);
 }
 .products__item {
    display: flex;
@@ -194,6 +197,7 @@
 }
 }
 
-
+.attribution { font-size: 12px; text-align: center; }
+.attribution a { color: var(--products-btn-background) }
 
 
