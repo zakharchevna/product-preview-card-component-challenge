@@ -82,6 +82,12 @@ h6 {
 body {
 	height: 100vh;
 	background-color: var(--products-background);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	padding: 1rem;
 }
 .products__container {
 	overflow: hidden;
@@ -89,9 +95,7 @@ body {
 	max-width: 1240px;
 	margin: auto;
 }
-.products {
-	padding: 30px 15px;
-}
+
 .products__item {
 	display: flex;
 	flex-direction: column;
@@ -194,9 +198,6 @@ body {
 	.products-item__title {
 		font-size: 34px;
 		padding: 12px 0 15px 0;
-	}
-	.products {
-		padding: 120px 15px;
 	}
 }
 
